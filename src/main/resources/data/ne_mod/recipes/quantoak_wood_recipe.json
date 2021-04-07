@@ -1,0 +1,26 @@
+{
+  "group": "ne_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "ne_mod:quantoak_log"
+    },
+    "1": {
+      "item": "ne_mod:quantoak_log"
+    },
+    "2": {
+      "item": "ne_mod:quantoak_log"
+    },
+    "3": {
+      "item": "ne_mod:quantoak_log"
+    }
+  },
+  "result": {
+    "item": "ne_mod:quantoak_wood",
+    "count": 3
+  }
+}

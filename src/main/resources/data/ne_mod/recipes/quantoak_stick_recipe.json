@@ -1,0 +1,20 @@
+{
+  "group": "ne_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "ne_mod:quantoak_planks"
+    },
+    "1": {
+      "item": "ne_mod:quantoak_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}

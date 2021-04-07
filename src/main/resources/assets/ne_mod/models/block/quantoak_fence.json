@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "ne_mod:blocks/quantoak_planks",
+    "particle": "ne_mod:blocks/quantoak_planks"
+  }
+}

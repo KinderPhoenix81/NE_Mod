@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "ne_mod:blocks/quantoak_log_side",
+    "particle": "ne_mod:blocks/quantoak_log_side"
+  }
+}

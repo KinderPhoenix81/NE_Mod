@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:QuantoakPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:QuantoakPlanks"
+      },
+      {
+        "value": "CUSTOM:QuantoakPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:QuantoakPlanks"
+      },
+      {
+        "value": "CUSTOM:QuantoakPlanks"
+      },
+      {
+        "value": "CUSTOM:QuantoakPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:QuantoakStairs"
+    },
+    "name": "quantoak_stairs_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ne_mod:block/quantoak_slab"
+    },
+    "type=top": {
+      "model": "ne_mod:block/quantoak_slab_top"
+    },
+    "type=double": {
+      "model": "ne_mod:block/quantoak_slab_full"
+    }
+  }
+}

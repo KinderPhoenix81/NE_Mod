@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "ne_mod:blocks/quantoak_planks",
+    "top": "ne_mod:blocks/quantoak_planks",
+    "side": "ne_mod:blocks/quantoak_planks"
+  }
+}

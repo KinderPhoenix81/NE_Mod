@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ne_mod:blocks/quantoak_log_top",
+    "up": "ne_mod:blocks/quantoak_log_top",
+    "north": "ne_mod:blocks/quantoak_log_side",
+    "east": "ne_mod:blocks/quantoak_log_side",
+    "south": "ne_mod:blocks/quantoak_log_side",
+    "west": "ne_mod:blocks/quantoak_log_side",
+    "particle": "ne_mod:blocks/quantoak_log_top"
+  }
+}

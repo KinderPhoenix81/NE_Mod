@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:QuantoakPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:QuantoakPlanks"
+      },
+      {
+        "value": "CUSTOM:QuantoakPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:QuantoakPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:QuantoakFence"
+    },
+    "name": "quantoak_fence_recipe",
+    "namespace": "mod"
+  }
+}
