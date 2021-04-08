@@ -83,7 +83,6 @@ public class Crimson_BrimstoneShovelItem extends NeModModElements.ModElement {
 				World world = entity.world;
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
 					CrimsonBrimstoneShovelLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
 				}
 				return retval;

@@ -8,7 +8,7 @@
     "name": "Crimson Brimstone",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "MATERIALS"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -19,7 +19,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "stayInGridWhenCrafting": false,
+    "stayInGridWhenCrafting": true,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,

@@ -45,7 +45,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "EARTH"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -92,6 +92,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "QuantumdirtBlockDestroyedByPlayer"
+    },
+    "onDestroyedByExplosion": {
+      "name": "QuantumdirtBlockDestroyedByExplosion"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -9,30 +9,30 @@ import net.mcreator.nemod.NeModModElements;
 import java.util.Map;
 
 @NeModModElements.ModElement.Tag
-public class CrimsonBrimstoneSwordBlockDestroyedWithToolProcedure extends NeModModElements.ModElement {
-	public CrimsonBrimstoneSwordBlockDestroyedWithToolProcedure(NeModModElements instance) {
-		super(instance, 43);
+public class QuantumdirtBlockDestroyedByExplosionProcedure extends NeModModElements.ModElement {
+	public QuantumdirtBlockDestroyedByExplosionProcedure(NeModModElements instance) {
+		super(instance, 83);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				System.err.println("Failed to load dependency x for procedure CrimsonBrimstoneSwordBlockDestroyedWithTool!");
+				System.err.println("Failed to load dependency x for procedure QuantumdirtBlockDestroyedByExplosion!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				System.err.println("Failed to load dependency y for procedure CrimsonBrimstoneSwordBlockDestroyedWithTool!");
+				System.err.println("Failed to load dependency y for procedure QuantumdirtBlockDestroyedByExplosion!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				System.err.println("Failed to load dependency z for procedure CrimsonBrimstoneSwordBlockDestroyedWithTool!");
+				System.err.println("Failed to load dependency z for procedure QuantumdirtBlockDestroyedByExplosion!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				System.err.println("Failed to load dependency world for procedure CrimsonBrimstoneSwordBlockDestroyedWithTool!");
+				System.err.println("Failed to load dependency world for procedure QuantumdirtBlockDestroyedByExplosion!");
 			return;
 		}
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");

@@ -149,17 +149,12 @@
       "name": "CrimsonBrimstoneShovelLivingEntityIsHitWithTool",
       "type": "procedure",
       "sortid": 49,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_shovel_living_entity_is_hit_with_tool",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -210,7 +205,7 @@
       "name": "Crimson_BrimstoneArmor",
       "type": "armor",
       "sortid": 33,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_armor",
@@ -225,7 +220,7 @@
       "name": "CrimsonBrimstoneSwordBlockDestroyedWithTool",
       "type": "procedure",
       "sortid": 43,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_sword_block_destroyed_with_tool",
@@ -656,7 +651,7 @@
       "name": "Quantumdirt",
       "type": "block",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "quantumdirt"
@@ -805,6 +800,81 @@
           }
         ]
       }
+    },
+    {
+      "name": "CrimsonBrimstoneArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_armor_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumdirtBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantumdirt_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumdirtBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantumdirt_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -812,17 +882,23 @@
   "language_map": {
     "en_us": {
       "block.ne_mod.crimson_brimstone_block": "Block of Crimson_Brimstone",
+      "item.ne_mod.crimson_brimstone_ingot": "Crimson Brimstone",
       "item.ne_mod.crimson_brimstone_pickaxe": "Crimson_Brimstone Pickaxe",
       "item.ne_mod.crimson_brimstone_axe": "Crimson_Brimstone Axe",
+      "block.ne_mod.quantumdirt": "Quantumdirt",
       "item.ne_mod.crimson_brimstone_sword": "Crimson_Brimstone Sword",
       "block.ne_mod.quantoak_fence_gate": "Quantoak Fence Gate",
       "block.ne_mod.quantoak_leaves": "Quantoak Leaves",
+      "item.ne_mod.crimson_brimstone_armor_boots": "Crimson Brimstone Boots",
       "block.ne_mod.quantoak_slab": "Quantoak Slab",
+      "item.ne_mod.crimson_brimstone_armor_leggings": "Crimson Brimstone Leggings",
       "item.ne_mod.crimson_brimstone_hoe": "Crimson_Brimstone Hoe",
+      "item.ne_mod.crimson_brimstone_armor_chestplate": "Crimson Brimstone Chestplate",
       "item.ne_mod.crimson_brimstone_shovel": "Crimson_Brimstone Shovel",
       "block.ne_mod.quantoak_planks": "Quantoak Planks",
       "block.ne_mod.quantoak_log": "Quantoak Log",
       "block.ne_mod.crimson_brimstone_ore": "Crimson_Brimstone Ore",
+      "item.ne_mod.crimson_brimstone_armor_helmet": "Crimson Brimstone Helmet",
       "block.ne_mod.quantoak_wood": "Quantoak Wood",
       "block.ne_mod.quantoak_fence": "Quantoak Fence",
       "block.ne_mod.quantoak_stairs": "Quantoak Stairs"
