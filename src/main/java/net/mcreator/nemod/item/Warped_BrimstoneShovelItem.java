@@ -1,21 +1,12 @@
 
 package net.mcreator.nemod.item;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.IItemTier;
-
-import net.mcreator.nemod.NeModModElements;
-
 @NeModModElements.ModElement.Tag
 public class Warped_BrimstoneShovelItem extends NeModModElements.ModElement {
+
 	@ObjectHolder("ne_mod:warped_brimstone_shovel")
 	public static final Item block = null;
+
 	public Warped_BrimstoneShovelItem(NeModModElements instance) {
 		super(instance, 64);
 	}
@@ -47,6 +38,8 @@ public class Warped_BrimstoneShovelItem extends NeModModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(Warped_BrimstoneIngotItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+
 		}.setRegistryName("warped_brimstone_shovel"));
 	}
+
 }

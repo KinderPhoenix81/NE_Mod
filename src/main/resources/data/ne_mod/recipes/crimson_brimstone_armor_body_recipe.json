@@ -8,32 +8,32 @@
   ],
   "key": {
     "0": {
-      "item": "ne_mod:crimson_brimstone_ingot"
+      "item": "ne_mod:unknown_element"
     },
     "2": {
-      "item": "ne_mod:crimson_brimstone_ingot"
+      "item": "ne_mod:unknown_element"
     },
     "3": {
-      "item": "ne_mod:crimson_brimstone_ingot"
+      "item": "ne_mod:unknown_element"
     },
     "4": {
-      "item": "ne_mod:crimson_brimstone_ingot"
+      "item": "ne_mod:unknown_element"
     },
     "5": {
-      "item": "ne_mod:crimson_brimstone_ingot"
+      "item": "ne_mod:unknown_element"
     },
     "6": {
-      "item": "ne_mod:crimson_brimstone_ingot"
+      "item": "ne_mod:unknown_element"
     },
     "7": {
-      "item": "ne_mod:crimson_brimstone_ingot"
+      "item": "ne_mod:unknown_element"
     },
     "8": {
-      "item": "ne_mod:crimson_brimstone_ingot"
+      "item": "ne_mod:unknown_element"
     }
   },
   "result": {
-    "item": "ne_mod:crimson_brimstone_armor_chestplate",
+    "item": "ne_mod:unknown_element_chestplate",
     "count": 1
   }
 }

@@ -8,7 +8,7 @@
   ],
   "key": {
     "0": {
-      "item": "ne_mod:crimson_brimstone_ingot"
+      "item": "ne_mod:unknown_element"
     },
     "1": {
       "item": "minecraft:stick"
@@ -18,7 +18,7 @@
     }
   },
   "result": {
-    "item": "ne_mod:crimson_brimstone_shovel",
+    "item": "ne_mod:unknown_element",
     "count": 1
   }
 }

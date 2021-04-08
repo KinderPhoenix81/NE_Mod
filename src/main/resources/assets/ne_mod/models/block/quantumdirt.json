@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ne_mod:blocks/quantum_dirt",
+    "up": "ne_mod:blocks/quantum_dirt",
+    "north": "ne_mod:blocks/quantum_dirt",
+    "east": "ne_mod:blocks/quantum_dirt",
+    "south": "ne_mod:blocks/quantum_dirt",
+    "west": "ne_mod:blocks/quantum_dirt",
+    "particle": "ne_mod:blocks/quantum_dirt"
+  }
+}

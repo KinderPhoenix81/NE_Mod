@@ -146,58 +146,89 @@
       "registry_name": "quantoak_stick_recipe"
     },
     {
-      "name": "Crimson_BrimstoneIngot",
-      "type": "item",
-      "sortid": 17,
+      "name": "Warped_BrimstoneArmor",
+      "type": "armor",
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_ingot"
+      "registry_name": "warped_brimstone_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
-      "name": "Crimson_BrimstoneOre",
-      "type": "block",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_ore"
-    },
-    {
-      "name": "Crimson_BrimstoneBlock",
-      "type": "block",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_block"
-    },
-    {
-      "name": "Crimson_BrimstoneOreBlockRecipe",
+      "name": "Warped_BrimstoneBlockOreRecipe",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_ore_block_recipe"
+      "registry_name": "warped_brimstone_block_ore_recipe"
     },
     {
-      "name": "Crimson_BrimstoneBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 21,
+      "name": "CrimsonBrimstoneShovelLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_block_ore_recipe"
+      "registry_name": "crimson_brimstone_shovel_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     },
     {
-      "name": "Crimson_BrimstoneOreSmelting",
+      "name": "Crimson_BrimstoneArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_ore_smelting"
+      "registry_name": "crimson_brimstone_armor_body_recipe"
+    },
+    {
+      "name": "Warped_BrimstoneAxe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_brimstone_axe"
+    },
+    {
+      "name": "CrimsonBrimstoneHoeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_hoe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warped_BrimstoneArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_brimstone_armor_boots_recipe"
     },
     {
       "name": "Crimson_BrimstonePickaxe",
@@ -209,67 +240,13 @@
       "registry_name": "crimson_brimstone_pickaxe"
     },
     {
-      "name": "Crimson_BrimstoneAxe",
-      "type": "tool",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_axe"
-    },
-    {
-      "name": "Crimson_BrimstoneSword",
-      "type": "tool",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_sword"
-    },
-    {
-      "name": "Crimson_BrimstoneShovel",
-      "type": "tool",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_shovel"
-    },
-    {
-      "name": "Crimson_BrimstoneHoe",
-      "type": "tool",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_hoe"
-    },
-    {
-      "name": "Crimson_BrimstonePickaxeRecipe",
+      "name": "Warped_BrimstoneHoeRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_pickaxe_recipe"
-    },
-    {
-      "name": "Crimson_BrimstoneAxeRecipe",
-      "type": "recipe",
-      "sortid": 29,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_axe_recipe"
-    },
-    {
-      "name": "Crimson_BrimstoneSwordRecipe",
-      "type": "recipe",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_sword_recipe"
+      "registry_name": "warped_brimstone_hoe_recipe"
     },
     {
       "name": "Crimson_BrimstoneShovelRecipe",
@@ -279,15 +256,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_shovel_recipe"
-    },
-    {
-      "name": "Crimson_BrimstoneHoeRecipe",
-      "type": "recipe",
-      "sortid": 32,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_hoe_recipe"
     },
     {
       "name": "Crimson_BrimstoneArmor",
@@ -302,151 +270,6 @@
         "el": true,
         "eb": true,
         "ec": true
-      }
-    },
-    {
-      "name": "Crimson_BrimstoneArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 34,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_armor_helmet_recipe"
-    },
-    {
-      "name": "Crimson_BrimstoneArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_armor_body_recipe"
-    },
-    {
-      "name": "Crimson_BrimstoneArmorLeggingsRecipe",
-      "type": "recipe",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_armor_leggings_recipe"
-    },
-    {
-      "name": "Crimson_BrimstoneArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_armor_boots_recipe"
-    },
-    {
-      "name": "CrimsonBrimstoneIngotRightClickedOnBlock",
-      "type": "procedure",
-      "sortid": 38,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_ingot_right_clicked_on_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CrimsonBrimstonePickaxeLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "sortid": 39,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_pickaxe_living_entity_is_hit_with_tool",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CrimsonBrimstonePickaxeEntitySwingsItem",
-      "type": "procedure",
-      "sortid": 40,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_pickaxe_entity_swings_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CrimsonBrimstoneAxeLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "sortid": 41,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_axe_living_entity_is_hit_with_tool",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "CrimsonBrimstoneAxeEntitySwingsItem",
-      "type": "procedure",
-      "sortid": 42,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_axe_entity_swings_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
       }
     },
     {
@@ -479,38 +302,31 @@
       }
     },
     {
-      "name": "CrimsonBrimstoneSwordLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "sortid": 44,
+      "name": "Crimson_BrimstoneHoe",
+      "type": "tool",
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_sword_living_entity_is_hit_with_tool",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "crimson_brimstone_hoe"
     },
     {
-      "name": "CrimsonBrimstoneSwordEntitySwingsItem",
-      "type": "procedure",
-      "sortid": 45,
+      "name": "Crimson_BrimstoneBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_sword_entity_swings_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "crimson_brimstone_block_ore_recipe"
+    },
+    {
+      "name": "Crimson_BrimstoneArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_armor_leggings_recipe"
     },
     {
       "name": "CrimsonBrimstonePickaxeBlockDestroyedWithTool",
@@ -571,13 +387,31 @@
       }
     },
     {
-      "name": "CrimsonBrimstoneShovelBlockDestroyedWithTool",
-      "type": "procedure",
-      "sortid": 48,
+      "name": "Warped_BrimstoneOre",
+      "type": "block",
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_shovel_block_destroyed_with_tool",
+      "registry_name": "warped_brimstone_ore"
+    },
+    {
+      "name": "Warped_BrimstoneArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_brimstone_armor_helmet_recipe"
+    },
+    {
+      "name": "CrimsonBrimstoneIngotRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_ingot_right_clicked_on_block",
       "metadata": {
         "dependencies": [
           {
@@ -600,38 +434,51 @@
       }
     },
     {
-      "name": "CrimsonBrimstoneShovelLivingEntityIsHitWithTool",
+      "name": "CrimsonBrimstonePickaxeEntitySwingsItem",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_shovel_living_entity_is_hit_with_tool",
+      "registry_name": "crimson_brimstone_pickaxe_entity_swings_item",
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
     },
     {
-      "name": "CrimsonBrimstoneShovelEntitySwingsItem",
-      "type": "procedure",
-      "sortid": 50,
+      "name": "Warped_BrimstoneIngot",
+      "type": "item",
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_shovel_entity_swings_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
+      "registry_name": "warped_brimstone_ingot"
+    },
+    {
+      "name": "Warped_BrimstonePickaxe",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_brimstone_pickaxe"
     },
     {
       "name": "CrimsonBrimstoneHoeBlockDestroyedWithTool",
@@ -663,13 +510,40 @@
       }
     },
     {
-      "name": "CrimsonBrimstoneHoeLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "sortid": 52,
+      "name": "Crimson_BrimstoneArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_hoe_living_entity_is_hit_with_tool",
+      "registry_name": "crimson_brimstone_armor_helmet_recipe"
+    },
+    {
+      "name": "Warped_BrimstoneSword",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_brimstone_sword"
+    },
+    {
+      "name": "Warped_BrimstoneShovel",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_brimstone_shovel"
+    },
+    {
+      "name": "CrimsonBrimstoneSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_sword_living_entity_is_hit_with_tool",
       "metadata": {
         "dependencies": [
           {
@@ -680,13 +554,75 @@
       }
     },
     {
-      "name": "CrimsonBrimstoneHoeEntitySwingsItem",
-      "type": "procedure",
-      "sortid": 53,
+      "name": "Crimson_BrimstoneIngot",
+      "type": "item",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "crimson_brimstone_hoe_entity_swings_item",
+      "registry_name": "crimson_brimstone_ingot"
+    },
+    {
+      "name": "Crimson_BrimstonePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_pickaxe_recipe"
+    },
+    {
+      "name": "Crimson_BrimstoneOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_ore"
+    },
+    {
+      "name": "Crimson_BrimstoneSwordRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_sword_recipe"
+    },
+    {
+      "name": "Crimson_BrimstoneArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_armor_boots_recipe"
+    },
+    {
+      "name": "CrimsonBrimstonePickaxeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_pickaxe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrimsonBrimstoneAxeEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_axe_entity_swings_item",
       "metadata": {
         "dependencies": [
           {
@@ -709,22 +645,21 @@
       }
     },
     {
-      "name": "Warped_BrimstoneIngot",
-      "type": "item",
-      "sortid": 55,
+      "name": "CrimsonBrimstoneShovelEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "warped_brimstone_ingot"
-    },
-    {
-      "name": "Warped_BrimstoneOre",
-      "type": "block",
-      "sortid": 56,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_ore"
+      "registry_name": "crimson_brimstone_shovel_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     },
     {
       "name": "Warped_BrimstoneBlock",
@@ -736,69 +671,6 @@
       "registry_name": "warped_brimstone_block"
     },
     {
-      "name": "Warped_BrimstoneOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_ore_block_recipe"
-    },
-    {
-      "name": "Warped_BrimstoneBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_block_ore_recipe"
-    },
-    {
-      "name": "Warped_BrimstoneOreSmelting",
-      "type": "recipe",
-      "sortid": 60,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_ore_smelting"
-    },
-    {
-      "name": "Warped_BrimstonePickaxe",
-      "type": "tool",
-      "sortid": 61,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_pickaxe"
-    },
-    {
-      "name": "Warped_BrimstoneAxe",
-      "type": "tool",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_axe"
-    },
-    {
-      "name": "Warped_BrimstoneSword",
-      "type": "tool",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_sword"
-    },
-    {
-      "name": "Warped_BrimstoneShovel",
-      "type": "tool",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_shovel"
-    },
-    {
       "name": "Warped_BrimstoneHoe",
       "type": "tool",
       "sortid": 65,
@@ -808,31 +680,13 @@
       "registry_name": "warped_brimstone_hoe"
     },
     {
-      "name": "Warped_BrimstonePickaxeRecipe",
+      "name": "Warped_BrimstoneOreBlockRecipe",
       "type": "recipe",
-      "sortid": 66,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "warped_brimstone_pickaxe_recipe"
-    },
-    {
-      "name": "Warped_BrimstoneAxeRecipe",
-      "type": "recipe",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_axe_recipe"
-    },
-    {
-      "name": "Warped_BrimstoneSwordRecipe",
-      "type": "recipe",
-      "sortid": 68,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_sword_recipe"
+      "registry_name": "warped_brimstone_ore_block_recipe"
     },
     {
       "name": "Warped_BrimstoneShovelRecipe",
@@ -844,39 +698,6 @@
       "registry_name": "warped_brimstone_shovel_recipe"
     },
     {
-      "name": "Warped_BrimstoneHoeRecipe",
-      "type": "recipe",
-      "sortid": 70,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_hoe_recipe"
-    },
-    {
-      "name": "Warped_BrimstoneArmor",
-      "type": "armor",
-      "sortid": 71,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_armor",
-      "metadata": {
-        "eh": true,
-        "el": true,
-        "eb": true,
-        "ec": true
-      }
-    },
-    {
-      "name": "Warped_BrimstoneArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 72,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "warped_brimstone_armor_helmet_recipe"
-    },
-    {
       "name": "Warped_BrimstoneArmorBodyRecipe",
       "type": "recipe",
       "sortid": 73,
@@ -884,6 +705,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "warped_brimstone_armor_body_recipe"
+    },
+    {
+      "name": "Warped_BrimstoneOreSmelting",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_brimstone_ore_smelting"
     },
     {
       "name": "Warped_BrimstoneArmorLeggingsRecipe",
@@ -895,50 +725,209 @@
       "registry_name": "warped_brimstone_armor_leggings_recipe"
     },
     {
-      "name": "Warped_BrimstoneArmorBootsRecipe",
+      "name": "Crimson_BrimstoneOreBlockRecipe",
       "type": "recipe",
-      "sortid": 75,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "warped_brimstone_armor_boots_recipe"
+      "registry_name": "crimson_brimstone_ore_block_recipe"
+    },
+    {
+      "name": "Crimson_BrimstoneOreSmelting",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_ore_smelting"
+    },
+    {
+      "name": "Crimson_BrimstoneSword",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_sword"
+    },
+    {
+      "name": "Crimson_BrimstoneAxeRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_axe_recipe"
+    },
+    {
+      "name": "Crimson_BrimstoneBlock",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_block"
+    },
+    {
+      "name": "Crimson_BrimstoneHoeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_hoe_recipe"
+    },
+    {
+      "name": "CrimsonBrimstoneShovelBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_shovel_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warped_BrimstoneSwordRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_brimstone_sword_recipe"
+    },
+    {
+      "name": "CrimsonBrimstoneHoeEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_hoe_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Warped_BrimstonePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_brimstone_pickaxe_recipe"
+    },
+    {
+      "name": "Crimson_BrimstoneShovel",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_shovel"
+    },
+    {
+      "name": "Warped_BrimstoneAxeRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warped_brimstone_axe_recipe"
+    },
+    {
+      "name": "Crimson_BrimstoneAxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_axe"
+    },
+    {
+      "name": "CrimsonBrimstoneSwordEntitySwingsItem",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_sword_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrimsonBrimstoneAxeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crimson_brimstone_axe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Quantumdirt",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantumdirt"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.ne_mod.crimson_brimstone_block": "Block of Crimson_Brimstone",
       "item.ne_mod.crimson_brimstone_axe": "Crimson_Brimstone Axe",
       "item.ne_mod.crimson_brimstone_sword": "Crimson_Brimstone Sword",
       "block.ne_mod.quantoak_leaves": "Quantoak Leaves",
       "block.ne_mod.quantoak_slab": "Quantoak Slab",
-      "block.ne_mod.warped_brimstone_ore": "Warped_Brimstone Ore",
-      "item.ne_mod.warped_brimstone_armor_boots": "Warped_Brimstone Boots",
-      "item.ne_mod.crimson_brimstone_armor_chestplate": "Crimson Brimstone Chestplate",
-      "block.ne_mod.warped_brimstone_block": "Block of Warped_Brimstone",
-      "item.ne_mod.warped_brimstone_armor_chestplate": "Warped_Brimstone Chestplate",
-      "item.ne_mod.warped_brimstone_shovel": "Warped_Brimstone Shovel",
       "block.ne_mod.quantoak_planks": "Quantoak Planks",
-      "item.ne_mod.warped_brimstone_pickaxe": "Warped_Brimstone Pickaxe",
       "block.ne_mod.quantoak_wood": "Quantoak Wood",
-      "item.ne_mod.warped_brimstone_axe": "Warped_Brimstone Axe",
-      "item.ne_mod.warped_brimstone_sword": "Warped_Brimstone Sword",
       "block.ne_mod.quantoak_stairs": "Quantoak Stairs",
-      "item.ne_mod.crimson_brimstone_ingot": "Crimson Brimstone",
       "item.ne_mod.crimson_brimstone_pickaxe": "Crimson_Brimstone Pickaxe",
-      "item.ne_mod.warped_brimstone_armor_leggings": "Warped_Brimstone Leggings",
       "block.ne_mod.quantoak_fence_gate": "Quantoak Fence Gate",
-      "item.ne_mod.warped_brimstone_ingot": "Warped_Brimstone",
-      "item.ne_mod.crimson_brimstone_armor_boots": "Crimson Brimstone Boots",
-      "item.ne_mod.warped_brimstone_hoe": "Warped_Brimstone Hoe",
-      "item.ne_mod.crimson_brimstone_armor_leggings": "Crimson Brimstone Leggings",
       "item.ne_mod.crimson_brimstone_hoe": "Crimson_Brimstone Hoe",
-      "item.ne_mod.warped_brimstone_armor_helmet": "Warped_Brimstone Helmet",
-      "item.ne_mod.crimson_brimstone_shovel": "Crimson_Brimstone Shovel",
       "block.ne_mod.quantoak_log": "Quantoak Log",
-      "block.ne_mod.crimson_brimstone_ore": "Crimson_Brimstone Ore",
-      "item.ne_mod.crimson_brimstone_armor_helmet": "Crimson Brimstone Helmet",
       "block.ne_mod.quantoak_fence": "Quantoak Fence"
     }
   },

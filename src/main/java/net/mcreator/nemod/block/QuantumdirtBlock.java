@@ -4,13 +4,13 @@ package net.mcreator.nemod.block;
 import net.minecraft.block.material.Material;
 
 @NeModModElements.ModElement.Tag
-public class Warped_BrimstoneBlockBlock extends NeModModElements.ModElement {
+public class QuantumdirtBlock extends NeModModElements.ModElement {
 
-	@ObjectHolder("ne_mod:warped_brimstone_block")
+	@ObjectHolder("ne_mod:quantumdirt")
 	public static final Block block = null;
 
-	public Warped_BrimstoneBlockBlock(NeModModElements instance) {
-		super(instance, 57);
+	public QuantumdirtBlock(NeModModElements instance) {
+		super(instance, 17);
 
 	}
 
@@ -26,10 +26,9 @@ public class Warped_BrimstoneBlockBlock extends NeModModElements.ModElement {
 		public CustomBlock() {
 			super(
 
-					Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(2)
-							.harvestTool(ToolType.PICKAXE));
+					Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
 
-			setRegistryName("warped_brimstone_block");
+			setRegistryName("quantumdirt");
 		}
 
 		@Override

@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "ne_mod:warped_brimstone_block"
+      "item": "ne_mod:unknown_element"
     }
   ],
   "result": {
-    "item": "ne_mod:warped_brimstone_ingot",
+    "item": "ne_mod:unknown_element",
     "count": 9
   }
 }
