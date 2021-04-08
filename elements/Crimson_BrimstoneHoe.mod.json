@@ -1,0 +1,39 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "crimson_brimstone_hoe",
+    "customModelName": "Normal",
+    "name": "Crimson_Brimstone Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 3,
+    "efficiency": 7.0,
+    "attackSpeed": 2.0,
+    "enchantability": 14,
+    "damageVsEntity": 4.0,
+    "usageCount": 905,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Crimson_BrimstoneIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "CrimsonBrimstoneHoeLivingEntityIsHitWithTool"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "CrimsonBrimstoneHoeBlockDestroyedWithTool"
+    },
+    "onEntitySwing": {
+      "name": "CrimsonBrimstoneHoeEntitySwingsItem"
+    }
+  }
+}

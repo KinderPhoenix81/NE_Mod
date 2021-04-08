@@ -1,0 +1,39 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "crimson_brimstone_axe",
+    "customModelName": "Normal",
+    "name": "Crimson_Brimstone Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 7.0,
+    "attackSpeed": 1.0,
+    "enchantability": 14,
+    "damageVsEntity": 7.0,
+    "usageCount": 905,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Crimson_BrimstoneIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "CrimsonBrimstoneAxeLivingEntityIsHitWithTool"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "CrimsonBrimstoneAxeBlockDestroyedWithTool"
+    },
+    "onEntitySwing": {
+      "name": "CrimsonBrimstoneAxeEntitySwingsItem"
+    }
+  }
+}

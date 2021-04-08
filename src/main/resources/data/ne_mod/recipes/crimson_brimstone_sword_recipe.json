@@ -1,0 +1,24 @@
+{
+  "group": "ne_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "ne_mod:crimson_brimstone_ingot"
+    },
+    "1": {
+      "item": "ne_mod:crimson_brimstone_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "ne_mod:crimson_brimstone_sword",
+    "count": 1
+  }
+}
