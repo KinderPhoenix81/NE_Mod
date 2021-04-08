@@ -15,7 +15,6 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.nemod.procedures.CrimsonBrimstoneShovelLivingEntityIsHitWithToolProcedure;
-import net.mcreator.nemod.procedures.CrimsonBrimstoneShovelEntitySwingsItemProcedure;
 import net.mcreator.nemod.procedures.CrimsonBrimstoneShovelBlockDestroyedWithToolProcedure;
 import net.mcreator.nemod.NeModModElements;
 
@@ -84,20 +83,6 @@ public class Crimson_BrimstoneShovelItem extends NeModModElements.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					CrimsonBrimstoneShovelLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
-				}
-				return retval;
-			}
-
-			@Override
-			public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
-				boolean retval = super.onEntitySwing(itemstack, entity);
-				double x = entity.getPosX();
-				double y = entity.getPosY();
-				double z = entity.getPosZ();
-				World world = entity.world;
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					CrimsonBrimstoneShovelEntitySwingsItemProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}

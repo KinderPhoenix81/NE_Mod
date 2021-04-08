@@ -1,11 +1,16 @@
 package net.mcreator.nemod.procedures;
 
+import net.minecraft.util.DamageSource;
+import net.minecraft.entity.Entity;
+
+import net.mcreator.nemod.NeModModElements;
+
+import java.util.Map;
+
 @NeModModElements.ModElement.Tag
 public class CrimsonBrimstoneSwordLivingEntityIsHitWithToolProcedure extends NeModModElements.ModElement {
-
 	public CrimsonBrimstoneSwordLivingEntityIsHitWithToolProcedure(NeModModElements instance) {
 		super(instance, 44);
-
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -14,11 +19,7 @@ public class CrimsonBrimstoneSwordLivingEntityIsHitWithToolProcedure extends NeM
 				System.err.println("Failed to load dependency entity for procedure CrimsonBrimstoneSwordLivingEntityIsHitWithTool!");
 			return;
 		}
-
 		Entity entity = (Entity) dependencies.get("entity");
-
 		entity.attackEntityFrom(DamageSource.GENERIC, (float) 6);
-
 	}
-
 }

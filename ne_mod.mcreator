@@ -276,7 +276,7 @@
       "name": "CrimsonBrimstonePickaxeBlockDestroyedWithTool",
       "type": "procedure",
       "sortid": 46,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_pickaxe_block_destroyed_with_tool",
@@ -305,7 +305,7 @@
       "name": "CrimsonBrimstoneAxeBlockDestroyedWithTool",
       "type": "procedure",
       "sortid": 47,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_axe_block_destroyed_with_tool",
@@ -331,39 +331,10 @@
       }
     },
     {
-      "name": "CrimsonBrimstonePickaxeEntitySwingsItem",
-      "type": "procedure",
-      "sortid": 40,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_pickaxe_entity_swings_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "CrimsonBrimstoneHoeBlockDestroyedWithTool",
       "type": "procedure",
       "sortid": 51,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_hoe_block_destroyed_with_tool",
@@ -401,7 +372,7 @@
       "name": "CrimsonBrimstoneSwordLivingEntityIsHitWithTool",
       "type": "procedure",
       "sortid": 44,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_sword_living_entity_is_hit_with_tool",
@@ -558,7 +529,7 @@
       "name": "CrimsonBrimstoneShovelBlockDestroyedWithTool",
       "type": "procedure",
       "sortid": 48,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_shovel_block_destroyed_with_tool",
@@ -612,23 +583,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_axe"
-    },
-    {
-      "name": "CrimsonBrimstoneSwordEntitySwingsItem",
-      "type": "procedure",
-      "sortid": 45,
-      "compiles": false,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "crimson_brimstone_sword_entity_swings_item",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     },
     {
       "name": "CrimsonBrimstoneAxeLivingEntityIsHitWithTool",
@@ -884,8 +838,8 @@
       "block.ne_mod.crimson_brimstone_block": "Block of Crimson_Brimstone",
       "item.ne_mod.crimson_brimstone_ingot": "Crimson Brimstone",
       "item.ne_mod.crimson_brimstone_pickaxe": "Crimson_Brimstone Pickaxe",
-      "item.ne_mod.crimson_brimstone_axe": "Crimson_Brimstone Axe",
       "block.ne_mod.quantumdirt": "Quantumdirt",
+      "item.ne_mod.crimson_brimstone_axe": "Crimson_Brimstone Axe",
       "item.ne_mod.crimson_brimstone_sword": "Crimson_Brimstone Sword",
       "block.ne_mod.quantoak_fence_gate": "Quantoak Fence Gate",
       "block.ne_mod.quantoak_leaves": "Quantoak Leaves",

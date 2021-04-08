@@ -15,7 +15,6 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.nemod.procedures.CrimsonBrimstonePickaxeLivingEntityIsHitWithToolProcedure;
-import net.mcreator.nemod.procedures.CrimsonBrimstonePickaxeEntitySwingsItemProcedure;
 import net.mcreator.nemod.procedures.CrimsonBrimstonePickaxeBlockDestroyedWithToolProcedure;
 import net.mcreator.nemod.NeModModElements;
 
@@ -85,24 +84,6 @@ public class Crimson_BrimstonePickaxeItem extends NeModModElements.ModElement {
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("entity", entity);
 					CrimsonBrimstonePickaxeLivingEntityIsHitWithToolProcedure.executeProcedure($_dependencies);
-				}
-				return retval;
-			}
-
-			@Override
-			public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
-				boolean retval = super.onEntitySwing(itemstack, entity);
-				double x = entity.getPosX();
-				double y = entity.getPosY();
-				double z = entity.getPosZ();
-				World world = entity.world;
-				{
-					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("x", x);
-					$_dependencies.put("y", y);
-					$_dependencies.put("z", z);
-					$_dependencies.put("world", world);
-					CrimsonBrimstonePickaxeEntitySwingsItemProcedure.executeProcedure($_dependencies);
 				}
 				return retval;
 			}

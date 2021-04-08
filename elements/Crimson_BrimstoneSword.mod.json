@@ -31,9 +31,6 @@
     },
     "onBlockDestroyedWithTool": {
       "name": "CrimsonBrimstoneSwordBlockDestroyedWithTool"
-    },
-    "onEntitySwing": {
-      "name": "CrimsonBrimstoneSwordEntitySwingsItem"
     }
   }
 }
