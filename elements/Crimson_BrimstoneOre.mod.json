@@ -99,17 +99,17 @@
       "name": "CrimsonBrimstoneOreBlockDestroyedByExplosion"
     },
     "spawnWorldTypes": [
-      "Surface"
+      "Nether"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.NETHERRACK"
       }
     ],
-    "frequencyPerChunks": 11,
-    "frequencyOnChunk": 7,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 63
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 4,
+    "minGenerateHeight": 10,
+    "maxGenerateHeight": 120
   }
 }

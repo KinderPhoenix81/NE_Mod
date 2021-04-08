@@ -136,7 +136,7 @@ public class Crimson_BrimstoneOreBlock extends NeModModElements.ModElement {
 				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
 					DimensionType dimensionType = world.getDimension().getType();
 					boolean dimensionCriteria = false;
-					if (dimensionType == DimensionType.OVERWORLD)
+					if (dimensionType == DimensionType.THE_NETHER)
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
@@ -145,10 +145,10 @@ public class Crimson_BrimstoneOreBlock extends NeModModElements.ModElement {
 			}.withConfiguration(
 					new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("crimson_brimstone_ore", "crimson_brimstone_ore", blockAt -> {
 						boolean blockCriteria = false;
-						if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
+						if (blockAt.getBlock() == Blocks.NETHERRACK.getDefaultState().getBlock())
 							blockCriteria = true;
 						return blockCriteria;
-					}), block.getDefaultState(), 7)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(11, 1, 1, 63))));
+					}), block.getDefaultState(), 4)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(8, 10, 10, 120))));
 		}
 	}
 }
