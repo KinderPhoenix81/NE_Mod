@@ -98,7 +98,6 @@ public class Crimson_BrimstoneHoeItem extends NeModModElements.ModElement {
 				World world = entity.world;
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
-					$_dependencies.put("entity", entity);
 					CrimsonBrimstoneHoeEntitySwingsItemProcedure.executeProcedure($_dependencies);
 				}
 				return retval;

@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "ne_mod:items/warped_brimstone_hoe"
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "ne_mod:blocks/warped_brimstone_ore",
-    "particle": "ne_mod:blocks/warped_brimstone_ore"
-  }
-}

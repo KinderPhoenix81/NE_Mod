@@ -35,7 +35,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Crimson_BrimstoneIngot"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -67,8 +67,8 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
-    "spawnParticles": false,
+    "breakHarvestLevel": 0,
+    "spawnParticles": true,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
     },
@@ -92,6 +92,12 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "CrimsonBrimstoneOreBlockDestroyedByPlayer"
+    },
+    "onDestroyedByExplosion": {
+      "name": "CrimsonBrimstoneOreBlockDestroyedByExplosion"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],
