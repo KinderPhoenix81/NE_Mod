@@ -149,7 +149,7 @@
       "name": "Warped_BrimstoneArmor",
       "type": "armor",
       "sortid": 71,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "warped_brimstone_armor",
@@ -390,7 +390,7 @@
       "name": "Warped_BrimstoneOre",
       "type": "block",
       "sortid": 56,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "warped_brimstone_ore"
@@ -466,7 +466,7 @@
       "name": "Warped_BrimstoneIngot",
       "type": "item",
       "sortid": 55,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "warped_brimstone_ingot"
@@ -475,7 +475,7 @@
       "name": "Warped_BrimstonePickaxe",
       "type": "tool",
       "sortid": 61,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "warped_brimstone_pickaxe"
@@ -531,7 +531,7 @@
       "name": "Warped_BrimstoneShovel",
       "type": "tool",
       "sortid": 64,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "warped_brimstone_shovel"
@@ -575,7 +575,7 @@
       "name": "Crimson_BrimstoneOre",
       "type": "block",
       "sortid": 18,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_ore"
@@ -665,7 +665,7 @@
       "name": "Warped_BrimstoneBlock",
       "type": "block",
       "sortid": 57,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "warped_brimstone_block"
@@ -674,7 +674,7 @@
       "name": "Warped_BrimstoneHoe",
       "type": "tool",
       "sortid": 65,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "warped_brimstone_hoe"
@@ -764,7 +764,7 @@
       "name": "Crimson_BrimstoneBlock",
       "type": "block",
       "sortid": 19,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_block"
@@ -846,7 +846,7 @@
       "name": "Crimson_BrimstoneShovel",
       "type": "tool",
       "sortid": 26,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "crimson_brimstone_shovel"
@@ -907,7 +907,7 @@
       "name": "Quantumdirt",
       "type": "block",
       "sortid": 17,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "quantumdirt"
@@ -917,18 +917,18 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.ne_mod.crimson_brimstone_pickaxe": "Crimson_Brimstone Pickaxe",
       "item.ne_mod.crimson_brimstone_axe": "Crimson_Brimstone Axe",
       "item.ne_mod.crimson_brimstone_sword": "Crimson_Brimstone Sword",
+      "block.ne_mod.quantoak_fence_gate": "Quantoak Fence Gate",
       "block.ne_mod.quantoak_leaves": "Quantoak Leaves",
       "block.ne_mod.quantoak_slab": "Quantoak Slab",
-      "block.ne_mod.quantoak_planks": "Quantoak Planks",
-      "block.ne_mod.quantoak_wood": "Quantoak Wood",
-      "block.ne_mod.quantoak_stairs": "Quantoak Stairs",
-      "item.ne_mod.crimson_brimstone_pickaxe": "Crimson_Brimstone Pickaxe",
-      "block.ne_mod.quantoak_fence_gate": "Quantoak Fence Gate",
       "item.ne_mod.crimson_brimstone_hoe": "Crimson_Brimstone Hoe",
+      "block.ne_mod.quantoak_planks": "Quantoak Planks",
       "block.ne_mod.quantoak_log": "Quantoak Log",
-      "block.ne_mod.quantoak_fence": "Quantoak Fence"
+      "block.ne_mod.quantoak_wood": "Quantoak Wood",
+      "block.ne_mod.quantoak_fence": "Quantoak Fence",
+      "block.ne_mod.quantoak_stairs": "Quantoak Stairs"
     }
   },
   "workspaceSettings": {
