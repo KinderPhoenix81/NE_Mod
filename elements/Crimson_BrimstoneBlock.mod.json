@@ -14,7 +14,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "",
+    "particleTexture": "crimson_brimstone_ore_block",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",

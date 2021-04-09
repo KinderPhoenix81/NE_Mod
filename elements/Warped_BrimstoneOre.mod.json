@@ -2,7 +2,7 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "crimsonbrimstoneore",
+    "texture": "warpedbrimstoneore",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -14,7 +14,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "crimsonbrimstoneore",
+    "particleTexture": "warpedbrimstoneore",
     "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
@@ -24,7 +24,7 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Crimson_Brimstone Ore",
+    "name": "Warped Brimstone Ore",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 5.0,
@@ -68,7 +68,7 @@
     "luminance": 0.0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
     },
@@ -93,23 +93,23 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onDestroyedByPlayer": {
-      "name": "CrimsonBrimstoneOreBlockDestroyedByPlayer"
+      "name": "WarpedBrimstoneOreBlockDestroyedByPlayer"
     },
     "onDestroyedByExplosion": {
-      "name": "CrimsonBrimstoneOreBlockDestroyedByExplosion"
+      "name": "WarpedBrimstoneOreBlockDestroyedByExplosion"
     },
     "spawnWorldTypes": [
-      "Nether"
+      "Surface"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.NETHERRACK"
+        "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 8,
-    "frequencyOnChunk": 4,
-    "minGenerateHeight": 10,
-    "maxGenerateHeight": 120
+    "frequencyPerChunks": 11,
+    "frequencyOnChunk": 7,
+    "minGenerateHeight": 1,
+    "maxGenerateHeight": 63
   }
 }
