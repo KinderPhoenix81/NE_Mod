@@ -1,0 +1,23 @@
+{
+  "_fv": 13,
+  "_type": "fluid",
+  "definition": {
+    "name": "SoulLava",
+    "textureStill": "soul_lava_still",
+    "textureFlowing": "soul_lava_still",
+    "luminosity": 15,
+    "density": 1000,
+    "viscosity": 1000,
+    "isGas": false,
+    "type": "LAVA",
+    "generateBucket": true,
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "frequencyOnChunks": 3,
+    "spawnWorldTypes": [
+      "Nether"
+    ],
+    "restrictionBiomes": []
+  }
+}
