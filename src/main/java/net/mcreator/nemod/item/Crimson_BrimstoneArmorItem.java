@@ -40,7 +40,7 @@ public class Crimson_BrimstoneArmorItem extends NeModModElements.ModElement {
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 6, 5, 2}[slot.getIndex()];
+				return new int[]{3, 6, 5, 3}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
