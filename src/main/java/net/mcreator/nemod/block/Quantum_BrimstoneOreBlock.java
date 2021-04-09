@@ -5,8 +5,6 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.common.ToolType;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.gen.placement.Placement;
@@ -21,22 +19,20 @@ import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.Explosion;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.fluid.IFluidState;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.nemod.procedures.CrimsonBrimstoneOreBlockDestroyedByPlayerProcedure;
-import net.mcreator.nemod.procedures.CrimsonBrimstoneOreBlockDestroyedByExplosionProcedure;
+import net.mcreator.nemod.procedures.QuantumBrimstoneOreBlockDestroyedByPlayerProcedure;
+import net.mcreator.nemod.procedures.QuantumBrimstoneOreBlockDestroyedByExplosionProcedure;
 import net.mcreator.nemod.NeModModElements;
 
 import java.util.Random;
@@ -46,11 +42,11 @@ import java.util.HashMap;
 import java.util.Collections;
 
 @NeModModElements.ModElement.Tag
-public class Crimson_BrimstoneOreBlock extends NeModModElements.ModElement {
-	@ObjectHolder("ne_mod:crimson_brimstone_ore")
+public class Quantum_BrimstoneOreBlock extends NeModModElements.ModElement {
+	@ObjectHolder("ne_mod:quantum_brimstone_ore")
 	public static final Block block = null;
-	public Crimson_BrimstoneOreBlock(NeModModElements instance) {
-		super(instance, 18);
+	public Quantum_BrimstoneOreBlock(NeModModElements instance) {
+		super(instance, 121);
 	}
 
 	@Override
@@ -61,9 +57,9 @@ public class Crimson_BrimstoneOreBlock extends NeModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 5f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 5f).lightValue(0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("crimson_brimstone_ore");
+			setRegistryName("quantum_brimstone_ore");
 		}
 
 		@Override
@@ -72,27 +68,6 @@ public class Crimson_BrimstoneOreBlock extends NeModModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
-		}
-
-		@OnlyIn(Dist.CLIENT)
-		@Override
-		public void animateTick(BlockState state, World world, BlockPos pos, Random random) {
-			super.animateTick(state, world, pos, random);
-			PlayerEntity entity = Minecraft.getInstance().player;
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-			if (true)
-				for (int l = 0; l < 4; ++l) {
-					double d0 = (x + random.nextFloat());
-					double d1 = (y + random.nextFloat());
-					double d2 = (z + random.nextFloat());
-					int i1 = random.nextInt(2) * 2 - 1;
-					double d3 = (random.nextFloat() - 0.5D) * 0.5D;
-					double d4 = (random.nextFloat() - 0.5D) * 0.5D;
-					double d5 = (random.nextFloat() - 0.5D) * 0.5D;
-					world.addParticle(ParticleTypes.EXPLOSION, d0, d1, d2, d3, d4, d5);
-				}
 		}
 
 		@Override
@@ -107,7 +82,7 @@ public class Crimson_BrimstoneOreBlock extends NeModModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				CrimsonBrimstoneOreBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
+				QuantumBrimstoneOreBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}
@@ -124,7 +99,7 @@ public class Crimson_BrimstoneOreBlock extends NeModModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				CrimsonBrimstoneOreBlockDestroyedByExplosionProcedure.executeProcedure($_dependencies);
+				QuantumBrimstoneOreBlockDestroyedByExplosionProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}
@@ -143,12 +118,12 @@ public class Crimson_BrimstoneOreBlock extends NeModModElements.ModElement {
 					return super.place(world, generator, rand, pos, config);
 				}
 			}.withConfiguration(
-					new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("crimson_brimstone_ore", "crimson_brimstone_ore", blockAt -> {
+					new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("quantum_brimstone_ore", "quantum_brimstone_ore", blockAt -> {
 						boolean blockCriteria = false;
 						if (blockAt.getBlock() == Blocks.NETHERRACK.getDefaultState().getBlock())
 							blockCriteria = true;
 						return blockCriteria;
-					}), block.getDefaultState(), 6)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(6, 10, 10, 120))));
+					}), block.getDefaultState(), 4)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(6, 10, 10, 120))));
 		}
 	}
 }

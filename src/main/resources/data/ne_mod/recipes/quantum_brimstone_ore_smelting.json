@@ -1,0 +1,12 @@
+{
+  "group": "ne_mod",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "ne_mod:quantum_brimstone_ore"
+  },
+  "result": {
+    "item": "ne_mod:quantum_brimstone_ingot"
+  }
+}

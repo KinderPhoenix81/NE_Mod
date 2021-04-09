@@ -2,21 +2,11 @@
 package net.mcreator.nemod.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.common.ToolType;
 
 import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.gen.placement.Placement;
-import net.minecraft.world.gen.placement.CountRangeConfig;
-import net.minecraft.world.gen.feature.OreFeatureConfig;
-import net.minecraft.world.gen.feature.OreFeature;
-import net.minecraft.world.gen.GenerationStage;
-import net.minecraft.world.gen.ChunkGenerator;
-import net.minecraft.world.dimension.DimensionType;
-import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
-import net.minecraft.world.IWorld;
+import net.minecraft.world.IWorldReader;
 import net.minecraft.world.Explosion;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.item.ItemStack;
@@ -27,26 +17,24 @@ import net.minecraft.fluid.IFluidState;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.nemod.procedures.WarpedBrimstoneOreBlockDestroyedByPlayerProcedure;
-import net.mcreator.nemod.procedures.WarpedBrimstoneOreBlockDestroyedByExplosionProcedure;
+import net.mcreator.nemod.procedures.QuantumBrimstoneBlockBlockDestroyedByPlayerProcedure;
+import net.mcreator.nemod.procedures.QuantumBrimstoneBlockBlockDestroyedByExplosionProcedure;
 import net.mcreator.nemod.NeModModElements;
 
-import java.util.Random;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
 import java.util.Collections;
 
 @NeModModElements.ModElement.Tag
-public class Warped_BrimstoneOreBlock extends NeModModElements.ModElement {
-	@ObjectHolder("ne_mod:warped_brimstone_ore")
+public class Quantum_BrimstoneBlockBlock extends NeModModElements.ModElement {
+	@ObjectHolder("ne_mod:quantum_brimstone_block")
 	public static final Block block = null;
-	public Warped_BrimstoneOreBlock(NeModModElements instance) {
-		super(instance, 85);
+	public Quantum_BrimstoneBlockBlock(NeModModElements instance) {
+		super(instance, 122);
 	}
 
 	@Override
@@ -57,9 +45,14 @@ public class Warped_BrimstoneOreBlock extends NeModModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 5f).lightValue(0).harvestLevel(1)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(5f, 10f).lightValue(0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE));
-			setRegistryName("warped_brimstone_ore");
+			setRegistryName("quantum_brimstone_block");
+		}
+
+		@Override
+		public boolean isBeaconBase(BlockState state, IWorldReader world, BlockPos pos, BlockPos beacon) {
+			return true;
 		}
 
 		@Override
@@ -82,7 +75,7 @@ public class Warped_BrimstoneOreBlock extends NeModModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				WarpedBrimstoneOreBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
+				QuantumBrimstoneBlockBlockDestroyedByPlayerProcedure.executeProcedure($_dependencies);
 			}
 			return retval;
 		}
@@ -99,31 +92,8 @@ public class Warped_BrimstoneOreBlock extends NeModModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				WarpedBrimstoneOreBlockDestroyedByExplosionProcedure.executeProcedure($_dependencies);
+				QuantumBrimstoneBlockBlockDestroyedByExplosionProcedure.executeProcedure($_dependencies);
 			}
-		}
-	}
-	@Override
-	public void init(FMLCommonSetupEvent event) {
-		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, new OreFeature(OreFeatureConfig::deserialize) {
-				@Override
-				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
-					DimensionType dimensionType = world.getDimension().getType();
-					boolean dimensionCriteria = false;
-					if (dimensionType == DimensionType.THE_NETHER)
-						dimensionCriteria = true;
-					if (!dimensionCriteria)
-						return false;
-					return super.place(world, generator, rand, pos, config);
-				}
-			}.withConfiguration(
-					new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("warped_brimstone_ore", "warped_brimstone_ore", blockAt -> {
-						boolean blockCriteria = false;
-						if (blockAt.getBlock() == Blocks.NETHERRACK.getDefaultState().getBlock())
-							blockCriteria = true;
-						return blockCriteria;
-					}), block.getDefaultState(), 6)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(6, 10, 10, 120))));
 		}
 	}
 }

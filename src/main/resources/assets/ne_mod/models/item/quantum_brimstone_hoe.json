@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "ne_mod:items/quantum_brimstone_hoe"
+  }
+}

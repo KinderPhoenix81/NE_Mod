@@ -1387,6 +1387,547 @@
           }
         ]
       }
+    },
+    {
+      "name": "Quantum_BrimstoneIngot",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_ingot"
+    },
+    {
+      "name": "Quantum_BrimstoneOre",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_ore"
+    },
+    {
+      "name": "Quantum_BrimstoneBlock",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_block"
+    },
+    {
+      "name": "Quantum_BrimstoneOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_ore_block_recipe"
+    },
+    {
+      "name": "Quantum_BrimstoneBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_block_ore_recipe"
+    },
+    {
+      "name": "Quantum_BrimstoneOreSmelting",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_ore_smelting"
+    },
+    {
+      "name": "Quantum_BrimstonePickaxe",
+      "type": "tool",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_pickaxe"
+    },
+    {
+      "name": "Quantum_BrimstoneAxe",
+      "type": "tool",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_axe"
+    },
+    {
+      "name": "Quantum_BrimstoneSword",
+      "type": "tool",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_sword"
+    },
+    {
+      "name": "Quantum_BrimstoneShovel",
+      "type": "tool",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_shovel"
+    },
+    {
+      "name": "Quantum_BrimstoneHoe",
+      "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_hoe"
+    },
+    {
+      "name": "Quantum_BrimstonePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_pickaxe_recipe"
+    },
+    {
+      "name": "Quantum_BrimstoneAxeRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_axe_recipe"
+    },
+    {
+      "name": "Quantum_BrimstoneSwordRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_sword_recipe"
+    },
+    {
+      "name": "Quantum_BrimstoneShovelRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_shovel_recipe"
+    },
+    {
+      "name": "Quantum_BrimstoneHoeRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_hoe_recipe"
+    },
+    {
+      "name": "Quantum_BrimstoneArmor",
+      "type": "armor",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Quantum_BrimstoneArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_armor_helmet_recipe"
+    },
+    {
+      "name": "Quantum_BrimstoneArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_armor_body_recipe"
+    },
+    {
+      "name": "Quantum_BrimstoneArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_armor_leggings_recipe"
+    },
+    {
+      "name": "Quantum_BrimstoneArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_armor_boots_recipe"
+    },
+    {
+      "name": "QuantumBrimstoneOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstoneOreBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_ore_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstoneBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_block_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstoneBlockBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_block_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstonePickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstonePickaxeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_pickaxe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstoneAxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_axe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstoneAxeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_axe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstoneSwordBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_sword_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstoneSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstoneShovelBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_shovel_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstoneShovelLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_shovel_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstoneHoeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_hoe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "QuantumBrimstoneHoeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "quantum_brimstone_hoe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1394,15 +1935,24 @@
   "language_map": {
     "en_us": {
       "block.ne_mod.crimson_brimstone_block": "Block of Crimson_Brimstone",
+      "item.ne_mod.quantum_brimstone_pickaxe": "Quantum_Brimstone Pickaxe",
       "item.ne_mod.crimson_brimstone_axe": "Crimson_Brimstone Axe",
+      "item.ne_mod.quantum_brimstone_axe": "Quantum_Brimstone Axe",
       "item.ne_mod.crimson_brimstone_sword": "Crimson_Brimstone Sword",
       "block.ne_mod.quantoak_leaves": "Quantoak Leaves",
+      "block.ne_mod.quantum_brimstone_ore": "Quantum_Brimstone Ore",
+      "item.ne_mod.quantum_brimstone_armor_helmet": "Quantum_Brimstone Helmet",
       "block.ne_mod.quantoak_slab": "Quantoak Slab",
+      "item.ne_mod.quantum_brimstone_armor_boots": "Quantum_Brimstone Boots",
+      "item.ne_mod.quantum_brimstone_sword": "Quantum_Brimstone Sword",
       "block.ne_mod.warped_brimstone_ore": "Warped Brimstone Ore",
       "item.ne_mod.warped_brimstone_armor_boots": "Warped_Brimstone Boots",
+      "item.ne_mod.quantum_brimstone_ingot": "Quantum_Brimstone",
+      "block.ne_mod.quantum_brimstone_block": "Block of Quantum_Brimstone",
       "item.ne_mod.crimson_brimstone_armor_chestplate": "Crimson Brimstone Chestplate",
       "block.ne_mod.warped_brimstone_block": "Block of Warped Brimstone",
       "item.ne_mod.warped_brimstone_armor_chestplate": "Warped_Brimstone Chestplate",
+      "item.ne_mod.quantum_brimstone_armor_chestplate": "Quantum_Brimstone Chestplate",
       "item.ne_mod.warped_brimstone_shovel": "Warped_Brimstone Shovel",
       "block.ne_mod.quantoak_planks": "Quantoak Planks",
       "item.ne_mod.warped_brimstone_pickaxe": "Warped_Brimstone Pickaxe",
@@ -1410,6 +1960,7 @@
       "item.ne_mod.warped_brimstone_axe": "Warped_Brimstone Axe",
       "item.ne_mod.warped_brimstone_sword": "Warped_Brimstone Sword",
       "block.ne_mod.quantoak_stairs": "Quantoak Stairs",
+      "item.ne_mod.quantum_brimstone_armor_leggings": "Quantum_Brimstone Leggings",
       "item.ne_mod.crimson_brimstone_ingot": "Crimson Brimstone",
       "item.ne_mod.crimson_brimstone_pickaxe": "Crimson_Brimstone Pickaxe",
       "item.ne_mod.warped_brimstone_armor_leggings": "Warped_Brimstone Leggings",
@@ -1418,8 +1969,10 @@
       "item.ne_mod.warped_brimstone_ingot": "Warped Brimstone Ingot",
       "item.ne_mod.crimson_brimstone_armor_boots": "Crimson Brimstone Boots",
       "item.ne_mod.warped_brimstone_hoe": "Warped_Brimstone Hoe",
+      "item.ne_mod.quantum_brimstone_shovel": "Quantum_Brimstone Shovel",
       "item.ne_mod.crimson_brimstone_armor_leggings": "Crimson Brimstone Leggings",
       "item.ne_mod.crimson_brimstone_hoe": "Crimson_Brimstone Hoe",
+      "item.ne_mod.quantum_brimstone_hoe": "Quantum_Brimstone Hoe",
       "item.ne_mod.warped_brimstone_armor_helmet": "Warped_Brimstone Helmet",
       "item.ne_mod.crimson_brimstone_shovel": "Crimson_Brimstone Shovel",
       "block.ne_mod.quantoak_log": "Quantoak Log",
