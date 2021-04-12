@@ -1,0 +1,42 @@
+{
+  "group": "ne_mod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "ne_mod:netherite_ingot"
+    },
+    "1": {
+      "item": "ne_mod:netherite_ingot"
+    },
+    "2": {
+      "item": "ne_mod:netherite_ingot"
+    },
+    "3": {
+      "item": "ne_mod:netherite_ingot"
+    },
+    "4": {
+      "item": "ne_mod:netherite_ingot"
+    },
+    "5": {
+      "item": "ne_mod:netherite_ingot"
+    },
+    "6": {
+      "item": "ne_mod:netherite_ingot"
+    },
+    "7": {
+      "item": "ne_mod:netherite_ingot"
+    },
+    "8": {
+      "item": "ne_mod:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "ne_mod:netherite_block",
+    "count": 1
+  }
+}

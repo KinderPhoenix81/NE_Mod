@@ -1,0 +1,36 @@
+{
+  "_fv": 13,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netherite_sword",
+    "customModelName": "Normal",
+    "name": "Netherite Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 8.0,
+    "usageCount": 2250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:NetheriteIngot"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "NetheriteSwordLivingEntityIsHitWithTool"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "NetheriteSwordBlockDestroyedWithTool"
+    }
+  }
+}

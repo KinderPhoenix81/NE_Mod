@@ -1937,6 +1937,455 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "soul_lava"
+    },
+    {
+      "name": "NetheriteIngot",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_ingot"
+    },
+    {
+      "name": "NetheriteOre",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_ore"
+    },
+    {
+      "name": "NetheriteBlock",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_block"
+    },
+    {
+      "name": "NetheriteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_ore_block_recipe"
+    },
+    {
+      "name": "NetheriteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_block_ore_recipe"
+    },
+    {
+      "name": "NetheriteOreSmelting",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_ore_smelting"
+    },
+    {
+      "name": "NetheritePickaxe",
+      "type": "tool",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_pickaxe"
+    },
+    {
+      "name": "NetheriteAxe",
+      "type": "tool",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_axe"
+    },
+    {
+      "name": "NetheriteSword",
+      "type": "tool",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_sword"
+    },
+    {
+      "name": "NetheriteShovel",
+      "type": "tool",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_shovel"
+    },
+    {
+      "name": "NetheriteHoe",
+      "type": "tool",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_hoe"
+    },
+    {
+      "name": "NetheritePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_pickaxe_recipe"
+    },
+    {
+      "name": "NetheriteAxeRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_axe_recipe"
+    },
+    {
+      "name": "NetheriteSwordRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_sword_recipe"
+    },
+    {
+      "name": "NetheriteShovelRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_shovel_recipe"
+    },
+    {
+      "name": "NetheriteHoeRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_hoe_recipe"
+    },
+    {
+      "name": "NetheriteArmor",
+      "type": "armor",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "NetheriteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_armor_helmet_recipe"
+    },
+    {
+      "name": "NetheriteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_armor_body_recipe"
+    },
+    {
+      "name": "NetheriteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_armor_leggings_recipe"
+    },
+    {
+      "name": "NetheriteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_armor_boots_recipe"
+    },
+    {
+      "name": "NetheriteOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteOreBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_ore_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteBlockBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_block_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteBlockBlockDestroyedByExplosion",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_block_block_destroyed_by_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheritePickaxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_pickaxe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheritePickaxeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_pickaxe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteAxeBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_axe_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteAxeLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_axe_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteSwordBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_sword_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NetheriteSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1944,52 +2393,64 @@
   "language_map": {
     "en_us": {
       "block.ne_mod.crimson_brimstone_block": "Block of Crimson Brimstone",
-      "item.ne_mod.quantum_brimstone_pickaxe": "Quantum Brimstone Pickaxe",
       "item.ne_mod.crimson_brimstone_axe": "Crimson Brimstone Axe",
       "item.ne_mod.quantum_brimstone_axe": "Quantum Brimstone Axe",
-      "item.ne_mod.crimson_brimstone_sword": "Crimson Brimstone Sword",
-      "block.ne_mod.quantoak_leaves": "Quantoak Leaves",
       "block.ne_mod.quantum_brimstone_ore": "Quantum Brimstone Ore",
-      "item.ne_mod.quantum_brimstone_armor_helmet": "Quantum Brimstone Helmet",
       "block.ne_mod.quantoak_slab": "Quantoak Slab",
       "item.ne_mod.quantum_brimstone_armor_boots": "Quantum Brimstone Boots",
       "item.ne_mod.quantum_brimstone_sword": "Quantum Brimstone Sword",
+      "block.ne_mod.netherite_block": "Block of Netherite",
+      "item.ne_mod.netherite_hoe": "Netherite Hoe",
       "block.ne_mod.warped_brimstone_ore": "Warped Brimstone Ore",
       "item.ne_mod.warped_brimstone_armor_boots": "Warped Brimstone Boots",
-      "item.ne_mod.quantum_brimstone_ingot": "Quantum_Brimstone",
-      "block.ne_mod.quantum_brimstone_block": "Block of Quantum Brimstone",
+      "item.ne_mod.netherite_ingot": "Netherite",
       "item.ne_mod.crimson_brimstone_armor_chestplate": "Crimson Brimstone Chestplate",
-      "block.ne_mod.warped_brimstone_block": "Block of Warped Brimstone",
-      "item.ne_mod.warped_brimstone_armor_chestplate": "Warped Brimstone Chestplate",
       "item.ne_mod.quantum_brimstone_armor_chestplate": "Quantum Brimstone Chestplate",
-      "item.ne_mod.warped_brimstone_shovel": "Warped Brimstone Shovel",
-      "block.ne_mod.quantoak_planks": "Quantoak Planks",
-      "item.ne_mod.warped_brimstone_pickaxe": "Warped Brimstone Pickaxe",
-      "block.ne_mod.quantoak_wood": "Quantoak Wood",
       "item.ne_mod.warped_brimstone_axe": "Warped Brimstone Axe",
-      "item.ne_mod.warped_brimstone_sword": "Warped Brimstone Sword",
+      "block.ne_mod.quantoak_wood": "Quantoak Wood",
       "fluid.soul_lava": "SoulLava",
-      "block.ne_mod.quantoak_stairs": "Quantoak Stairs",
       "item.ne_mod.quantum_brimstone_armor_leggings": "Quantum Brimstone Leggings",
       "item.ne_mod.crimson_brimstone_ingot": "Crimson Brimstone Ingot",
-      "item.ne_mod.crimson_brimstone_pickaxe": "Crimson Brimstone Pickaxe",
       "item.ne_mod.warped_brimstone_armor_leggings": "Warped Brimstone Leggings",
-      "block.ne_mod.quantumdirt": "Quantumdirt",
+      "block.ne_mod.netherite_ore": "Netherite Ore",
       "block.ne_mod.quantoak_fence_gate": "Quantoak Fence Gate",
       "item.ne_mod.warped_brimstone_ingot": "Warped Brimstone Ingot",
       "item.ne_mod.soul_lava_bucket": "SoulLava Bucket",
       "item.ne_mod.crimson_brimstone_armor_boots": "Crimson Brimstone Boots",
       "item.ne_mod.warped_brimstone_hoe": "Warped Brimstone Hoe",
       "item.ne_mod.quantum_brimstone_shovel": "Quantum Brimstone Shovel",
+      "item.ne_mod.warped_brimstone_armor_helmet": "Warped Brimstone Helmet",
+      "item.ne_mod.crimson_brimstone_shovel": "Crimson Brimstone Shovel",
+      "item.ne_mod.crimson_brimstone_armor_helmet": "Crimson Brimstone Helmet",
+      "item.ne_mod.quantum_brimstone_pickaxe": "Quantum Brimstone Pickaxe",
+      "item.ne_mod.crimson_brimstone_sword": "Crimson Brimstone Sword",
+      "item.ne_mod.netherite_armor_chestplate": "Netherite Chestplate",
+      "block.ne_mod.quantoak_leaves": "Quantoak Leaves",
+      "item.ne_mod.quantum_brimstone_armor_helmet": "Quantum Brimstone Helmet",
+      "item.ne_mod.netherite_armor_leggings": "Netherite Leggings",
+      "item.ne_mod.quantum_brimstone_ingot": "Quantum_Brimstone",
+      "block.ne_mod.quantum_brimstone_block": "Block of Quantum Brimstone",
+      "block.ne_mod.warped_brimstone_block": "Block of Warped Brimstone",
+      "item.ne_mod.warped_brimstone_armor_chestplate": "Warped Brimstone Chestplate",
+      "item.ne_mod.warped_brimstone_shovel": "Warped Brimstone Shovel",
+      "block.ne_mod.quantoak_planks": "Quantoak Planks",
+      "item.ne_mod.warped_brimstone_pickaxe": "Warped Brimstone Pickaxe",
+      "item.ne_mod.warped_brimstone_sword": "Warped Brimstone Sword",
+      "item.ne_mod.netherite_axe": "Netherite Axe",
+      "block.ne_mod.quantoak_stairs": "Quantoak Stairs",
+      "item.ne_mod.crimson_brimstone_pickaxe": "Crimson Brimstone Pickaxe",
+      "block.ne_mod.quantumdirt": "Quantumdirt",
+      "item.ne_mod.netherite_sword": "Netherite Sword",
+      "item.ne_mod.netherite_armor_boots": "Netherite Boots",
+      "item.ne_mod.netherite_armor_helmet": "Netherite Helmet",
       "item.ne_mod.crimson_brimstone_armor_leggings": "Crimson Brimstone Leggings",
       "item.ne_mod.crimson_brimstone_hoe": "Crimson Brimstone Hoe",
       "item.ne_mod.quantum_brimstone_hoe": "Quantum Brimstone Hoe",
-      "item.ne_mod.warped_brimstone_armor_helmet": "Warped Brimstone Helmet",
-      "item.ne_mod.crimson_brimstone_shovel": "Crimson Brimstone Shovel",
       "block.ne_mod.quantoak_log": "Quantoak Log",
       "block.ne_mod.crimson_brimstone_ore": "Crimson Brimstone Ore",
-      "item.ne_mod.crimson_brimstone_armor_helmet": "Crimson Brimstone Helmet",
-      "block.ne_mod.quantoak_fence": "Quantoak Fence"
+      "block.ne_mod.quantoak_fence": "Quantoak Fence",
+      "item.ne_mod.netherite_pickaxe": "Netherite Pickaxe",
+      "item.ne_mod.netherite_shovel": "Netherite Shovel"
     }
   },
   "workspaceSettings": {
