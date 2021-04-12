@@ -11,12 +11,12 @@
       "value": "TOOLS"
     },
     "toolType": "Hoe",
-    "harvestLevel": 2,
-    "efficiency": 6.0,
+    "harvestLevel": 3,
+    "efficiency": 8.0,
     "attackSpeed": 1.0,
-    "enchantability": 14,
-    "damageVsEntity": 2.0,
-    "usageCount": 250,
+    "enchantability": 12,
+    "damageVsEntity": 5.0,
+    "usageCount": 2250,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
@@ -25,6 +25,12 @@
       }
     ],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "NetheriteHoeLivingEntityIsHitWithTool"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "NetheriteHoeBlockDestroyedWithTool"
+    }
   }
 }
